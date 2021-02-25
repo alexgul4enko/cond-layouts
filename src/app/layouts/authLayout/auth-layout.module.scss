@@ -1,0 +1,42 @@
+@import "variables";
+
+.wrapper {
+  height: 100%;
+  background-color: #ffffff;
+  background: url(@img/example.png);
+}
+
+.logo {
+  height: 42px;
+}
+
+.main {
+  overflow: auto;
+}
+
+.header {
+  height: $header-height;
+  background-color: $green;
+  display: flex;
+  align-items: center;
+  padding: 0 24px;
+}
+
+.footer {
+  height: $header-height;
+  background-color: $primary;
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  align-items: center;
+  padding: 0 24px;
+}
+
+.btn {
+  background: red;
+  transition: background 0.3s;
+  user-select: none;
+}
+
